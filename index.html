@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <DIV class="header">
+    <p>Назва новини:</p>
+    <input type="text" class="name" />
+    <p>Опис новини:</p>
+    <input type="text" class="des" />
+    <p>Дата новини:</p>
+    <input type="text" class="date" /></br>
+    <button onclick="listNews.addNew()" class="btnBuy">Add news</button>
+</DIV>
+    <button onclick="listNews.lengthNews()">Кількість новин</button>
+    <div class="content">
+        <div class="news"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

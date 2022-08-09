@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 70px;
+}
+.header button {
+  height: 50px;
+}
+.news {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.cardNew {
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  min-width: 300px;
+}
+input {
+  margin-bottom: 20px;
+  background-color: #3cbc8d;
+  color: white;
+}
